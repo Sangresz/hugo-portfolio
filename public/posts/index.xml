@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Corrado Cionini</title>
+    <link>https://ccorrado.surge.sh/posts/</link>
+    <description>Recent content in Posts on Corrado Cionini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Oct 2022 15:03:39 +0100</lastBuildDate><atom:link href="https://ccorrado.surge.sh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prova</title>
+      <link>https://ccorrado.surge.sh/posts/first_post/</link>
+      <pubDate>Fri, 14 Oct 2022 15:03:39 +0100</pubDate>
+      
+      <guid>https://ccorrado.surge.sh/posts/first_post/</guid>
+      <description>it works</description>
+    </item>
+    
+  </channel>
+</rss>

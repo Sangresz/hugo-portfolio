@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #00CC00;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Covidstats</title>
+    <meta name="description" content="Software Developer and Hacker by passion">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://ccorrado.surge.sh/projects/covidstats/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Covidstats">
+    <meta property="og:description" content="Software Developer and Hacker by passion">
+    <meta property="og:image" content="/img/avatar.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Covidstats">
+    <meta name="twitter:description" content="Software Developer and Hacker by passion">
+    <meta property="twitter:domain" content="https://ccorrado.surge.sh/projects/covidstats/">
+    <meta property="twitter:url" content="https://ccorrado.surge.sh/projects/covidstats/">
+    <meta name="twitter:image" content="/img/avatar.jpg">
+
+    
+    <link rel="canonical" href="https://ccorrado.surge.sh/projects/covidstats/" />
+
+    <link rel="stylesheet" type="text/css" href="https://ccorrado.surge.sh/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://ccorrado.surge.sh/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://ccorrado.surge.sh/css/dark.css">
+
+    <script src="https://ccorrado.surge.sh/js/svg-injector.min.js"></script>
+    <script src="https://ccorrado.surge.sh/js/feather-icons.min.js"></script>
+    <script src="https://ccorrado.surge.sh/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://ccorrado.surge.sh">
+                <img src="https://ccorrado.surge.sh/img/avatar.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://ccorrado.surge.sh">Corrado Cionini</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://ccorrado.surge.sh/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ccorrado.surge.sh/about/"><span data-feather='bookmark'></span> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ccorrado.surge.sh/projects/"><span data-feather='terminal'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Sangresz"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://ccorrado.surge.sh/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ccorrado.surge.sh/about/"><span data-feather='bookmark'></span> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ccorrado.surge.sh/projects/"><span data-feather='terminal'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Sangresz"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>Covidstats</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p>Android application that makes two separate requests to an open data regularly updated daily (around 6:00 pm) the number of COVID-19 contagions.</p>
+<p>REQUEST 1: Number of contagions in a certain province from pandemic start until today.</p>
+<p>REQUEST 2: Number of contagions from the beginning of the pandemic to today&rsquo;s day from all Italian provinces.</p>
+<p>The data is saved to a file in the system so that we avoid redoing the request to the github repository used:
+<a href="https://github.com/pcm-dpc/COVID-19">https://github.com/pcm-dpc/COVID-19</a></p>
+<p>When changing activity the first time, this data is saved to a system file called config.csv.</p>
+<p>An intent is then used that sends a bundle containing a string to verify that it is saved correctly.</p>
+<p>The first time the application is started in any case a request is made to the repository where the file (about 10MB large) will be downloaded.</p>
+<p>Dynamic spinners and a datePickerDialog are used to have a more interactive look and feel, at the same time limiting possible user input errors in case the user is given complete freedom with simple EditTexts</p>
+<p>Here is the source code on <a href="https://github.com/CCCorrado/CovidStats">github.com</a></p>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Corrado Cionini</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

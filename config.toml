@@ -1,0 +1,55 @@
+baseURL = "https://ccorrado.surge.sh"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Corrado Cionini"
+theme = "gokarna"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "/img/avatar.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-m"
+
+  # Description to display on homepage
+  description = "Software Developer and Hacker by passion"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#00CC00"
+
+  socialIcons = [
+    {name = "email", url = "mailto:corrado.cionini@protonmail.com"},
+    {name = "linkedin", url = "https://linkedin.com/in/corrado-cionini"},
+    {name = "twitter", url = "https://twitter.com/Sangresctf"}
+  ]
+  # Keywords relevant for SEO
+  # metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # Footer text
+  footer = "Corrado Cionini"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    pre = "<span data-feather='bookmark'></span>"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='terminal'></span>"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/Sangresz"
+    weight = 4

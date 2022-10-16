@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ccorrado.surge.sh/</loc>
+    <lastmod>2022-10-14T15:03:39+01:00</lastmod>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/posts/</loc>
+    <lastmod>2022-10-14T15:03:39+01:00</lastmod>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/posts/first_post/</loc>
+    <lastmod>2022-10-14T15:03:39+01:00</lastmod>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/about/</loc>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/categories/</loc>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/projects/covidstats/</loc>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/projects/flasknoteapp/</loc>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/projects/</loc>
+  </url><url>
+    <loc>https://ccorrado.surge.sh/tags/</loc>
+  </url>
+</urlset>

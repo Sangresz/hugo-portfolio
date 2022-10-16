@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Corrado Cionini</title>
+    <link>https://ccorrado.surge.sh/projects/</link>
+    <description>Recent content in Projects on Corrado Cionini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://ccorrado.surge.sh/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Covidstats</title>
+      <link>https://ccorrado.surge.sh/projects/covidstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ccorrado.surge.sh/projects/covidstats/</guid>
+      <description>Android application that makes two separate requests to an open data regularly updated daily (around 6:00 pm) the number of COVID-19 contagions.
+REQUEST 1: Number of contagions in a certain province from pandemic start until today.
+REQUEST 2: Number of contagions from the beginning of the pandemic to today&amp;rsquo;s day from all Italian provinces.
+The data is saved to a file in the system so that we avoid redoing the request to the github repository used: https://github.</description>
+    </item>
+    
+    <item>
+      <title>FlaskNoteapp</title>
+      <link>https://ccorrado.surge.sh/projects/flasknoteapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ccorrado.surge.sh/projects/flasknoteapp/</guid>
+      <description>This is a project that I have done to strengthen my skills using python with flask.
+I did it following this tutorial.
+I added some features like the ability to edit the notes, and an options page where you can change your password or email.
+This app is now hosted on heroku.com
+Here is the source code on github.com</description>
+    </item>
+    
+  </channel>
+</rss>
