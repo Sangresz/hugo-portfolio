@@ -8,13 +8,23 @@
         :root {
             --accent-color: #00CC00;
         }
+        .typed-out{
+            overflow: hidden;
+            border-right: .15em solid greenyellow;
+            white-space: nowrap;
+            font-size: 1.6rem;
+            width: 0;
+            animation:
+                typing 2s steps(30, end) forwards;
+        }
+        .container {
+            display: inline-block;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
     </style>
-
-    
-    
-    
-    
-    
     
 
     
@@ -139,7 +149,9 @@
         <img class=size-m src='https://ccorrado.surge.sh/img/avatar.jpg' alt="avatar" />
         
 	</div>
-    <h1>Corrado Cionini</h1>
+    <div class="container">
+        <h1 class="typed-out">Corrado Cionini</h1>
+    </div>
     <h3>Software Developer and Hacker by passion</h3>
 </section>
 
