@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corrado Cionini</title>
-    <link>https://ccorrado.surge.sh/</link>
+    <link>https://corradocionini.com/</link>
     <description>Recent content on Corrado Cionini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Oct 2022 15:03:39 +0100</lastBuildDate><atom:link href="https://ccorrado.surge.sh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 15:03:39 +0100</lastBuildDate><atom:link href="https://corradocionini.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prova</title>
-      <link>https://ccorrado.surge.sh/posts/first_post/</link>
+      <link>https://corradocionini.com/posts/first_post/</link>
       <pubDate>Fri, 14 Oct 2022 15:03:39 +0100</pubDate>
       
-      <guid>https://ccorrado.surge.sh/posts/first_post/</guid>
+      <guid>https://corradocionini.com/posts/first_post/</guid>
       <description>it works</description>
     </item>
     
     <item>
       <title>Covidstats</title>
-      <link>https://ccorrado.surge.sh/projects/covidstats/</link>
+      <link>https://corradocionini.com/projects/covidstats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ccorrado.surge.sh/projects/covidstats/</guid>
+      <guid>https://corradocionini.com/projects/covidstats/</guid>
       <description>Android application that makes two separate requests to an open data regularly updated daily (around 6:00 pm) the number of COVID-19 contagions.
 REQUEST 1: Number of contagions in a certain province from pandemic start until today.
 REQUEST 2: Number of contagions from the beginning of the pandemic to today&amp;rsquo;s day from all Italian provinces.
@@ -30,10 +30,10 @@ The data is saved to a file in the system so that we avoid redoing the request t
     
     <item>
       <title>FlaskNoteapp</title>
-      <link>https://ccorrado.surge.sh/projects/flasknoteapp/</link>
+      <link>https://corradocionini.com/projects/flasknoteapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ccorrado.surge.sh/projects/flasknoteapp/</guid>
+      <guid>https://corradocionini.com/projects/flasknoteapp/</guid>
       <description>This is a project that I have done to strengthen my skills using python with flask.
 I did it following this tutorial.
 I added some features like the ability to edit the notes, and an options page where you can change your password or email.
@@ -43,10 +43,10 @@ Here is the source code on github.com</description>
     
     <item>
       <title>MovieDB</title>
-      <link>https://ccorrado.surge.sh/projects/moviedb/</link>
+      <link>https://corradocionini.com/projects/moviedb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ccorrado.surge.sh/projects/moviedb/</guid>
+      <guid>https://corradocionini.com/projects/moviedb/</guid>
       <description>This is a project that I have done to learn svelte (Javascript framework)
 I did it following this tutorial. Customizing most of the website on my own
 I added some features like the ability to look for the upcoming film releases.
