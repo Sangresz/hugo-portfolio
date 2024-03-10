@@ -22,7 +22,7 @@ enableRobotsTXT = true
   socialIcons = [
     {name = "email", url = "mailto:corrado.cionini@protonmail.com"},
     {name = "linkedin", url = "https://linkedin.com/in/corrado-cionini"},
-    {name = "twitter", url = "https://twitter.com/Sangresctf"}
+    {name = "twitter", url = "https://twitter.com/corrado_cionini"}
   ]
   # Keywords relevant for SEO
   # metaKeywords = ["blog", "gokarna", "hugo"]
