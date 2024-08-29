@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Corrado Cionini</title>
-    <link>https://corradocionini.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Corrado Cionini</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Oct 2022 15:03:39 +0100</lastBuildDate><atom:link href="https://corradocionini.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 15:03:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prova</title>
-      <link>https://corradocionini.com/posts/first_post/</link>
+      <link>http://localhost:1313/posts/first_post/</link>
       <pubDate>Fri, 14 Oct 2022 15:03:39 +0100</pubDate>
-      
-      <guid>https://corradocionini.com/posts/first_post/</guid>
+      <guid>http://localhost:1313/posts/first_post/</guid>
       <description>it works</description>
     </item>
-    
   </channel>
 </rss>

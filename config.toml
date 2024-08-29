@@ -20,7 +20,6 @@ enableRobotsTXT = true
   accentColor = "#00CC00"
 
   socialIcons = [
-    {name = "email", url = "mailto:corrado.cionini@protonmail.com"},
     {name = "linkedin", url = "https://linkedin.com/in/corrado-cionini"},
     {name = "twitter", url = "https://twitter.com/corrado_cionini"}
   ]

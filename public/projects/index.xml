@@ -2,47 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Corrado Cionini</title>
-    <link>https://corradocionini.com/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Corrado Cionini</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://corradocionini.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Covidstats</title>
-      <link>https://corradocionini.com/projects/covidstats/</link>
+      <link>http://localhost:1313/projects/covidstats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://corradocionini.com/projects/covidstats/</guid>
-      <description>Android application that makes two separate requests to an open data regularly updated daily (around 6:00 pm) the number of COVID-19 contagions.
-REQUEST 1: Number of contagions in a certain province from pandemic start until today.
-REQUEST 2: Number of contagions from the beginning of the pandemic to today&amp;rsquo;s day from all Italian provinces.
-The data is saved to a file in the system so that we avoid redoing the request to the github repository used: https://github.</description>
+      <guid>http://localhost:1313/projects/covidstats/</guid>
+      <description>Android application that makes two separate requests to an open data regularly updated daily (around 6:00 pm) the number of COVID-19 contagions.&#xA;REQUEST 1: Number of contagions in a certain province from pandemic start until today.&#xA;REQUEST 2: Number of contagions from the beginning of the pandemic to today&amp;rsquo;s day from all Italian provinces.&#xA;The data is saved to a file in the system so that we avoid redoing the request to the github repository used: https://github.</description>
     </item>
-    
     <item>
       <title>FlaskNoteapp</title>
-      <link>https://corradocionini.com/projects/flasknoteapp/</link>
+      <link>http://localhost:1313/projects/flasknoteapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://corradocionini.com/projects/flasknoteapp/</guid>
-      <description>This is a project that I have done to strengthen my skills using python with flask.
-I did it following this tutorial.
-I added some features like the ability to edit the notes, and an options page where you can change your password or email.
-This app is now hosted on heroku.com
-Here is the source code on github.com</description>
+      <guid>http://localhost:1313/projects/flasknoteapp/</guid>
+      <description>This is a project that I have done to strengthen my skills using python with flask.&#xA;I did it following this tutorial.&#xA;I added some features like the ability to edit the notes, and an options page where you can change your password or email.&#xA;This app is now hosted on heroku.com&#xA;Here is the source code on github.com</description>
     </item>
-    
     <item>
       <title>MovieDB</title>
-      <link>https://corradocionini.com/projects/moviedb/</link>
+      <link>http://localhost:1313/projects/moviedb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://corradocionini.com/projects/moviedb/</guid>
-      <description>This is a project that I have done to learn svelte (Javascript framework)
-I did it following this tutorial. Customizing most of the website on my own
-I added some features like the ability to look for the upcoming film releases.
-This app is now hosted on netlify.com
-Here is the source code on github.com</description>
+      <guid>http://localhost:1313/projects/moviedb/</guid>
+      <description>This is a project that I have done to learn svelte (Javascript framework)&#xA;I did it following this tutorial. Customizing most of the website on my own&#xA;I added some features like the ability to look for the upcoming film releases.&#xA;This app is now hosted on netlify.com&#xA;Here is the source code on github.com</description>
     </item>
-    
   </channel>
 </rss>
